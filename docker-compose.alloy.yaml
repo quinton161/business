@@ -5,7 +5,8 @@ services:
     network_mode: host
     environment:
       IS_ALLOY: ${IS_ALLOY:-false}
+      PORT: "3000"
+      HOST: "0.0.0.0"
     volumes:
       - .:/workspace
-      - /workspace/node_modules
-    command: bash -lc "npm install && npm run dev"
+    command: bash -lc "node server.js"

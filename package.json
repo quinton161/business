@@ -1,19 +1,11 @@
 {
-  "name": "business",
+  "name": "wealth-bento-webflow-clone",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Static clone of the Wealth Bento Webflow template",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^5.4.11"
+    "dev": "node server.js",
+    "start": "node server.js"
   }
 }
